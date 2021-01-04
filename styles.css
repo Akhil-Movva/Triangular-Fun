@@ -18,6 +18,9 @@ body{
     display: flex;
     padding-bottom: 1rem;
     border: 1px solid black;
+    flex-direction: row;
+    margin-bottom: 3rem;
+
     
     
 }
@@ -53,3 +56,34 @@ a{
   font-weight:600;
   
 }
+
+#caption{
+
+    font-size: 5rem;
+
+}
+
+#text{
+    padding-left: 10rem;
+    
+}
+
+#desc{
+    font-size: smaller;
+    padding-left: 10px;
+    line-height:1.5;
+}
+#about{
+    display: flex;
+}
+
+#img{
+    max-height: 600px;
+    padding-left: 20rem;
+    
+}
+
+
+
+
+
