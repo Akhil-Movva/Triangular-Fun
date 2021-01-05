@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="quiz.css">
+
+<body>
+  <nav id="nav">
+    <div id="icon">Triangular Fun</div>
+    <ul class="links">
+      <li class="links-inline"><a href="/index.html">Home</a></li>
+      <li class="links-inline"><a href="/">Quiz</a></li>
+      <li class="links-inline"><a href="/">Learn</a></li>
+      <li class="links-inline"><a href="/">Compute</a></li>
+    </ul>
+  </nav>
+  <main id="main">
+    <h1 id="heading">Quiz</h1>
+    <form id="form"> 
+      <p>1. If 70 and 50 are 2 angles of a triangle, what will the third be?</p>
+      <input type="radio" name="angle" value="120">
+      <label>120</label><br>
+      <input id="sixty" type="radio" name="angle" value="60">
+      <label>60</label><br>
+      <input type="radio" name="angle" value="90">
+      <label>90</label>
+
+      <p>2. The three angles of a triangle are 40,60 and 80. Is it a obtuse angled triangle?</p>
+      <input type="radio" name="obtuse" value="yes">
+      <label>Yes</label><br>
+      <input id="obtuse" type="radio" name="obtuse" value="no">
+      <label>No</label>
+
+      <p>3. The three angles of a triangle are 50,70 and 60. Is it an acute angled triangle?</p>
+      <input id="acute" type="radio" name="acute" value="yes">
+      <label>Yes</label><br>
+      <input type="radio" name="acute" value="no">
+      <label>No</label>
+
+      <p>4. The three angles of a triangle are 90,30 and 60. Is it a right angled triangle?</p>
+      <input id="right" type="radio" name="right" value="yes">
+      <label>Yes</label><br>
+      <input type="radio" name="right" value="no">
+      <label>No</label>
+      <br><br>
+      <div id="button-holder">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <div id="score"></div>
+    <script src="quiz.js"></script>
+  </main>
+</body>
+
+</html>

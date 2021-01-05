@@ -10,6 +10,7 @@ html{
 body{
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 #nav{
@@ -19,7 +20,7 @@ body{
     padding-bottom: 1rem;
     border: 1px solid black;
     flex-direction: row;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
      
 }
 
@@ -55,33 +56,33 @@ a{
   
 }
 
-#caption{
-
-    font-size: 5rem;
-
+#main{
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-#text{
-    padding-left: 10rem;
-    
+#heading{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-bottom: 1rem;
 }
 
-#desc{
-    font-size: smaller;
-    padding-left: 10px;
-    line-height:1.5;
-}
-#about{
-    display: flex;
+#button-holder{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#img{
-    max-height: 600px;
-    padding-left: 20rem;
-    
+#score{
+    font-size: 1.5rem;
 }
 
+button{
+  background-color: var(--cream);
+  border: 2px solid black;
+  font-family: 'Work Sans', sans-serif;
 
-
-
-
+}
