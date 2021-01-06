@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="icon">Triangular Fun</div>
+        <ul class="links">
+            <li class="links-inline"><a href="/index.html">Home</a></li>
+            <li class="links-inline"><a href="/quiz.html">Quiz</a></li>
+            <li class="links-inline"><a href="/learn.html">Learn</a></li>
+            <li class="links-inline"><a href="/">Compute</a></li>
+        </ul>
+    </nav>
+    <h1>Learn</h1>
+    <div id="objective">
+        <h3>Objective:</h3>
+        <p>To get to know the conditions that need to be satisfied for a triangle to exist.</p>
+    </div>
+    <main id="learn">
+        <div class="condition">
+            <form id="form-angle">
+                <h3>Condition on the angles</h3>
+                <div class="input">
+                    <label class="center-align">First angle</label><br>
+                    <input id="angle-first" type="number" min="1" required>
+                </div>
+
+                <div class="input">
+                    <label class="center-align">Second angle</label><br>
+                    <input id="angle-second" type="number" min="1" required>
+                </div>
+
+                <div class="input">
+                    <label class="center-align">Third angle</label><br>
+                    <input id="angle-third" type="number" min="1" required>
+                </div>
+
+                <br>
+
+                <div class="button-holder">
+                    <button type="submit">Check</button>
+                </div>
+
+                <div>
+                    <p id="msg-angle">
+
+                    </p>
+                    <p id="rule-angle">
+
+                    </p>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="condition">
+            <form id="form-side">
+                <h3>Condition on the sides</h3>
+                <div class="input">
+                    <label class="center-align">First side length</label><br>
+                    <input id="side-first" type="number" min="1" required>
+                </div>
+
+                <div class="input">
+                    <label class="center-align">Second side length</label><br>
+                    <input id="side-second" type="number" min="1" required>
+                </div>
+
+                <div class="input">
+                    <label class="center-align">Third side length</label><br>
+                    <input id="side-third" type="number" min="1" required>
+                </div>
+
+                <br>
+
+                <div class="button-holder">
+                    <button type="submit">Check</button>
+                </div>
+
+                <div>
+                    <p id="msg-side">
+
+                    </p>
+                    <p id="rule-side">
+
+                    </p>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+<script src="learn.js"></script>
+
+</html>
