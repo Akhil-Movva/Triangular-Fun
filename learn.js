@@ -1,13 +1,13 @@
-firstAngle=document.querySelector("#angle-first");
-secondAngle=document.querySelector("#angle-second");
-thirdAngle=document.querySelector("#angle-third");
+var firstAngle=document.querySelector("#angle-first");
+var secondAngle=document.querySelector("#angle-second");
+var thirdAngle=document.querySelector("#angle-third");
 
-firstSide=document.querySelector("#side-first");
-secondSide=document.querySelector("#side-second");
-thirdSide=document.querySelector("#side-third");
+var firstSide=document.querySelector("#side-first");
+var secondSide=document.querySelector("#side-second");
+var thirdSide=document.querySelector("#side-third");
 
-formAngle=document.querySelector("#form-angle");
-formSide=document.querySelector("#form-side");
+var formAngle=document.querySelector("#form-angle");
+var formSide=document.querySelector("#form-side");
 
 
 

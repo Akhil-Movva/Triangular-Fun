@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="calculator.css">
+
+<body>
+    <nav id="nav">
+        <div id="icon">Triangular Fun</div>
+        <ul class="links">
+            <li class="links-inline"><a href="/index.html">Home</a></li>
+            <li class="links-inline"><a href="/quiz.html">Quiz</a></li>
+            <li class="links-inline"><a href="/learn.html">Learn</a></li>
+            <li class="links-inline"><a href="/calculator.html">Compute</a></li>
+        </ul>
+    </nav>
+</body>
+<h1>Calculator</h1>
+<main>
+    <div class="calculate">
+        <form id="form-area">
+            <h3>Solve for area</h3>
+            <div class="input">
+                <label class="center-align">Base</label><br>
+                <input id="base" type="number" min="1" step ="any" required>
+            </div>
+
+            <div class="input">
+                <label class="center-align">Height</label><br>
+                <input id="height" type="number" min="1" step="any" required>
+            </div>
+
+            <br>
+
+            <div class="button-holder">
+                    <button type="submit">Calculate</button>
+            </div>
+
+            <div>
+               <p id="msg-area"></p> 
+            </div>
+        </form>
+    </div>
+
+    <div class="calculate">
+        <form id="form-hypotenuse">
+            <h3>Solve for hypotenuse</h3>
+            <div class="input">
+                <label class="center-align">Leg one</label><br>
+                <input id="leg-one" type="number" min="1" step= "any" required>
+            </div>
+
+            <div class="input">
+                <label class="center-align">Leg two</label><br>
+                <input id="leg-two" type="number" min="1" step ="any" required>
+            </div>
+
+            <br>
+
+            <div class="button-holder">
+                    <button type="submit">Calculate</button>
+            </div>
+
+            <div>
+               <p id="msg-hyp"></p> 
+            </div>
+        </form>
+    </div>
+
+
+</main>
+<script src="calculator.js"></script>
+
+</html>

@@ -80,9 +80,10 @@ a{
 }
 
 button{
-  background-color: var(--cream);
+  
   border: 2px solid black;
   font-family: 'Work Sans', sans-serif;
+  background-color: var(--cream);
 
 }
 
