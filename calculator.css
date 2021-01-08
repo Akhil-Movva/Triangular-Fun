@@ -61,7 +61,7 @@ h1{
 }
 
 main{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     margin-top: 3rem;
 }
@@ -83,12 +83,12 @@ h3,p{
 }
 
 .input{
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
 .button-holder{
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto 1rem auto;
     text-align: left;
 }

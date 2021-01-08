@@ -69,7 +69,7 @@ h3,p{
 }
 
 #learn{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     margin-top: 3rem;
 }
@@ -84,12 +84,12 @@ h1{
 }
 
 .input{
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
 .button-holder{
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto 1rem auto;
     text-align: left;
 }
