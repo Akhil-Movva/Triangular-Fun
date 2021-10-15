@@ -31,6 +31,7 @@ function angleHandler(event){
 
      document.getElementById("msg-angle").innerText=msg;
      document.getElementById("rule-angle").innerHTML="Condition: The sum of angles in a triangle is equal to 180."
+     formAngle.removeEventListener("submit",angleHandler);
 
 }
 
@@ -58,6 +59,7 @@ function sideHandler(event){
 
        document.getElementById("msg-side").innerText=msg;
      document.getElementById("rule-side").innerText="Condition: The sum of the lengths of any 2 sides of a triangle should be greater than or equal to the length of the third side.";
+     formSide.removeEventListener("submit",sideHandler);
     
   }
 
