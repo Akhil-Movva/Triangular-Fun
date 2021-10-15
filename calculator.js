@@ -15,6 +15,7 @@ function areaHandler(event){
     var area=1/2*base*height;
     area=area.toFixed(2);
     document.getElementById("msg-area").innerText="The area of the triangle for the inputted base and height is "+area.toString();
+    event.target.disabled=true;
 
 }
 
@@ -27,6 +28,7 @@ function hypotenuseHandler(event){
     var hyp=Math.sqrt((legOne*legOne)+(legTwo*legTwo));
     hyp=hyp.toFixed(2);
     document.getElementById("msg-hyp").innerText="The length of the hypotenuse for the inputted two legs is "+hyp.toString();
+    event.target.disabled=true;
 
 }
 
