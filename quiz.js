@@ -22,6 +22,7 @@ function clickHandler(event){
 
       var message="Your score: "+score.toString();
       document.getElementById("score").innerText=message;
+     form.removeEventListener("submit",clickHandler);
 
 }
 
